@@ -1,0 +1,501 @@
+[
+    {
+        "outputFile": "/Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 45,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 50,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 50,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endColumn": 57,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 57,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 55,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 55,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 55,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1005,
+                        "endColumn": 55,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 53,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 53,
+                        "endOffset": 65
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 47,
+                    "endOffset": 466
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 909,
+                        "endColumn": 47,
+                        "endOffset": 952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 471,
+                    "endColumn": 49,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 49,
+                        "endOffset": 644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 45,
+                    "endOffset": 562
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 553,
+                        "endColumn": 45,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 567,
+                    "endColumn": 47,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 957,
+                        "endColumn": 47,
+                        "endOffset": 1000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 37,
+                    "endOffset": 648
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 37,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 653,
+                    "endColumn": 35,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endColumn": 35,
+                        "endOffset": 680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 42,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 134,
+                        "endColumn": 42,
+                        "endOffset": 172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endColumn": 63,
+                    "endOffset": 791
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 785,
+                        "endColumn": 63,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 796,
+                    "endColumn": 51,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 51,
+                        "endOffset": 780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 39,
+                    "endOffset": 883
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 39,
+                        "endOffset": 408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 888,
+                    "endColumn": 65,
+                    "endOffset": 949
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endColumn": 65,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 954,
+                    "endColumn": 63,
+                    "endOffset": 1013
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 63,
+                        "endOffset": 129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1018,
+                    "endColumn": 53,
+                    "endOffset": 1067
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 53,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1072,
+                    "endColumn": 37,
+                    "endOffset": 1105
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 37,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1110,
+                    "endColumn": 39,
+                    "endOffset": 1145
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 461,
+                        "endColumn": 39,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1150,
+                    "endColumn": 51,
+                    "endOffset": 1197
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 51,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1202,
+                    "endColumn": 47,
+                    "endOffset": 1245
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 413,
+                        "endColumn": 47,
+                        "endOffset": 456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1250,
+                    "endColumn": 59,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 59,
+                        "endOffset": 904
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 47,
+                    "endOffset": 1353
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 685,
+                        "endColumn": 47,
+                        "endOffset": 728
+                    }
+                }
+            }
+        ]
+    }
+]

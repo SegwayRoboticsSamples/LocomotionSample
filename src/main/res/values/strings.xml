@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LocomotionSample</string>
+    <string name="setlinearvelocity">setLinearVelocity</string>
+    <string name="pi_pi">-PI ~ PI</string>
+    <string name="setangularvelocity">setAngularVelocity</string>
+    <string name="stop">stop</string>
+    <string name="smooth_track">Smooth Track</string>
+    <string name="lock">Lock</string>
+    <string name="reset">reset</string>
+    <string name="world_yaw">world_yaw</string>
+    <string name="value">value</string>
+    <string name="world_pitch">world_pitch</string>
+    <string name="base_yaw">base_yaw</string>
+    <string name="base_pitch">base_pitch</string>
+    <string name="n_a">N/A</string>
+    <string name="yaw_speed">yaw_speed</string>
+    <string name="pitch_speed">pitch_speed</string>
+    <string name="pitch_incremental">pitch_incremental</string>
+    <string name="yaw_incremental">yaw_incremental</string>
+    <string name="base_demo">base_demo</string>
+    <string name="head_demo">head_demo</string>
+    <string name="_5_6pi_5_6pi">-5/6PI ~ 5/6PI</string>
+</resources>
