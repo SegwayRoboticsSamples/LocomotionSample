@@ -7,13 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.segway.robot.algo.Pose2D;
 import com.segway.robot.algo.minicontroller.CheckPoint;
 import com.segway.robot.algo.minicontroller.CheckPointStateListener;
 import com.segway.robot.locomotionsample.R;
 import com.segway.robot.sdk.locomotion.sbv.Base;
+import com.segway.robot.sdk.locomotion.sbv.BaseTicks;
 
 /**
  * Created by sgs on 2017/4/19.
