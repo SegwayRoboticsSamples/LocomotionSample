@@ -46,8 +46,8 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.segway.robot:headsdk:0.6.293'
-    compile 'com.segway.robot:basesdk:0.6.293'
+    compile 'com.segway.robot:headsdk:0.6.345'
+    compile 'com.segway.robot:basesdk:0.6.345'
     compile 'com.android.support:support-v4:22.1.1'
     testCompile 'junit:junit:4.12'
 }
