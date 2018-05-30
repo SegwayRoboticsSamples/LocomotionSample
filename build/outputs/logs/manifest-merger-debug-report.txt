@@ -15,7 +15,7 @@ ADDED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManife
 		INJECTED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml
 application
 ADDED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml:5:5-25:19
-MERGED from [com.segway.robot:basic-class:0.5.114] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basic-class/0.5.114/AndroidManifest.xml:11:5-15:19
+MERGED from [com.segway.robot:basic-class:0.6.65] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basic-class/0.6.65/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:support-v4:22.1.1] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml:8:9-41
@@ -57,10 +57,10 @@ ADDED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManife
 		ADDED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml:22:19-52
 uses-sdk
 INJECTED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.segway.robot:headsdk:0.6.202] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/headsdk/0.6.202/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:basesdk:0.6.202] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basesdk/0.6.202/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:basic-class:0.5.114] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basic-class/0.5.114/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:sdkbase:0.1.48] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.48/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:headsdk:0.6.562] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/headsdk/0.6.562/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:basesdk:0.6.562] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basesdk/0.6.562/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:basic-class:0.6.65] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/basic-class/0.6.65/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:sdkbase:0.1.65] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.65/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:22.1.1] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml
@@ -69,6 +69,6 @@ MERGED from [com.android.support:support-v4:22.1.1] /Users/jacob/Desktop/zipFile
 		INJECTED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml
 		INJECTED from /Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.segway.robot:sdkbase:0.1.48] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.48/AndroidManifest.xml:11:5-81
+ADDED from [com.segway.robot:sdkbase:0.1.65] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.65/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [com.segway.robot:sdkbase:0.1.48] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.48/AndroidManifest.xml:11:22-78
+		ADDED from [com.segway.robot:sdkbase:0.1.65] /Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/sdkbase/0.1.65/AndroidManifest.xml:11:22-78

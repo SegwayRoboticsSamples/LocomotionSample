@@ -16,6 +16,7 @@
     <string name="pi_pi">-PI ~ PI</string>
     <string name="pitch_incremental">pitch_incremental</string>
     <string name="pitch_speed">pitch_speed</string>
+    <string name="product_not_support">Product not support this feature</string>
     <string name="reset">reset</string>
     <string name="setangularvelocity">setAngularVelocity</string>
     <string name="setlinearvelocity">setLinearVelocity</string>

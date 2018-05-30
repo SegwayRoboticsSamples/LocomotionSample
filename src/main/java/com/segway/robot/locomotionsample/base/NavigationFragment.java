@@ -13,7 +13,6 @@ import com.segway.robot.algo.minicontroller.CheckPoint;
 import com.segway.robot.algo.minicontroller.CheckPointStateListener;
 import com.segway.robot.locomotionsample.R;
 import com.segway.robot.sdk.locomotion.sbv.Base;
-import com.segway.robot.sdk.locomotion.sbv.BaseTicks;
 
 /**
  * Created by sgs on 2017/4/19.

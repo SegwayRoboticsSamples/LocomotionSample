@@ -311,8 +311,27 @@
                     "startLine": 18,
                     "startColumn": 4,
                     "startOffset": 848,
+                    "endColumn": 80,
+                    "endOffset": 924
+                },
+                "from": {
+                    "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/exploded-aar/com.segway.robot/headsdk/0.6.562/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 80,
+                        "endOffset": 176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 929,
                     "endColumn": 39,
-                    "endOffset": 883
+                    "endOffset": 964
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -327,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 888,
+                    "startOffset": 969,
                     "endColumn": 65,
-                    "endOffset": 949
+                    "endOffset": 1030
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -346,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 954,
+                    "startOffset": 1035,
                     "endColumn": 63,
-                    "endOffset": 1013
+                    "endOffset": 1094
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -365,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1018,
+                    "startOffset": 1099,
                     "endColumn": 53,
-                    "endOffset": 1067
+                    "endOffset": 1148
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -384,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1072,
+                    "startOffset": 1153,
                     "endColumn": 37,
-                    "endOffset": 1105
+                    "endOffset": 1186
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -403,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1110,
+                    "startOffset": 1191,
                     "endColumn": 39,
-                    "endOffset": 1145
+                    "endOffset": 1226
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -422,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1150,
+                    "startOffset": 1231,
                     "endColumn": 51,
-                    "endOffset": 1197
+                    "endOffset": 1278
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -441,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1202,
+                    "startOffset": 1283,
                     "endColumn": 47,
-                    "endOffset": 1245
+                    "endOffset": 1326
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -460,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1250,
+                    "startOffset": 1331,
                     "endColumn": 59,
-                    "endOffset": 1305
+                    "endOffset": 1386
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
@@ -479,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1310,
+                    "startOffset": 1391,
                     "endColumn": 47,
-                    "endOffset": 1353
+                    "endOffset": 1434
                 },
                 "from": {
                     "file": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/values/strings.xml",
