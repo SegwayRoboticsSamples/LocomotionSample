@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/jacob/project/github_demos/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_head.xml",
+        "source": "/Users/jacob/project/github_demos/LocomotionSample/src/main/res/layout/activity_head.xml"
+    },
+    {
+        "merged": "/Users/jacob/project/github_demos/LocomotionSample/build/intermediates/res/merged/debug/layout/fragment_base.xml",
+        "source": "/Users/jacob/project/github_demos/LocomotionSample/src/main/res/layout/fragment_base.xml"
+    },
+    {
         "merged": "/Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_head.xml",
         "source": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/layout/activity_head.xml"
     },
@@ -14,6 +22,18 @@
     {
         "merged": "/Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/jacob/Desktop/zipFiles/LocomotionSample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jacob/project/github_demos/LocomotionSample/build/intermediates/res/merged/debug/layout/navigation_fragment.xml",
+        "source": "/Users/jacob/project/github_demos/LocomotionSample/src/main/res/layout/navigation_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacob/project/github_demos/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_base.xml",
+        "source": "/Users/jacob/project/github_demos/LocomotionSample/src/main/res/layout/activity_base.xml"
+    },
+    {
+        "merged": "/Users/jacob/project/github_demos/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/jacob/project/github_demos/LocomotionSample/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/jacob/Desktop/zipFiles/LocomotionSample/build/intermediates/res/merged/debug/layout/activity_base.xml",

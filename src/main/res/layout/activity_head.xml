@@ -1,164 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_head"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.segway.robot.locomotionsample.head.HeadActivity"
     android:clickable="true"
     android:focusableInTouchMode="true"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:context="com.segway.robot.locomotionsample.head.HeadActivity">
+
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_weight="0.6"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6">
+
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <RadioGroup
                         android:id="@+id/mode_select"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <RadioButton
                             android:id="@+id/smooth_track"
-                            android:text="@string/smooth_track"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:text="@string/smooth_track" />
+
                         <RadioButton
                             android:id="@+id/lock"
-                            android:text="@string/lock"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:text="@string/lock" />
                     </RadioGroup>
+
                     <Button
                         android:id="@+id/reset"
-                        android:text="@string/reset"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/reset" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/world_yaw"
-                        android:text="@string/world_yaw"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/world_yaw" />
+
                     <EditText
                         android:id="@+id/need_world_yaw_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
+
                     <TextView
-                        android:text="@string/value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:text="@string/value" />
+
                     <TextView
                         android:id="@+id/cur_world_yaw_value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/world_pitch"
-                        android:text="@string/world_pitch"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/world_pitch" />
+
                     <EditText
                         android:id="@+id/need_world_pitch_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
+
                     <TextView
-                        android:text="@string/value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:text="@string/value" />
+
                     <TextView
                         android:id="@+id/cur_world_pitch_value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/base_yaw"
-                        android:text="@string/base_yaw"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/base_yaw" />
+
                     <EditText
                         android:id="@+id/need_base_yaw_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/_5_6pi_5_6pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/_5_6pi_5_6pi"/>
+                        android:maxLength="5" />
+
                     <TextView
-                        android:text="@string/value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:text="@string/value" />
+
                     <TextView
                         android:id="@+id/cur_base_yaw_value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/base_pitch"
-                        android:text="@string/base_pitch"
-                        android:onClick="onClick"
-                        android:enabled="false"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:onClick="onClick"
+                        android:text="@string/base_pitch" />
+
                     <EditText
                         android:id="@+id/need_base_pitch_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
-                        android:inputType="number"
-                        android:maxLength="5"
                         android:enabled="false"
-                        android:hint="@string/n_a"/>
+                        android:hint="@string/n_a"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="number"
+                        android:maxLength="5" />
+
                     <TextView
-                        android:text="@string/value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:text="@string/value" />
+
                     <TextView
                         android:id="@+id/cur_base_pitch_value"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
@@ -166,94 +193,131 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_weight="0.5"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/yaw_speed"
-                        android:text="@string/yaw_speed"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/yaw_speed" />
+
                     <EditText
                         android:id="@+id/need_yaw_speed_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/pitch_speed"
-                        android:text="@string/pitch_speed"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/pitch_speed" />
+
                     <EditText
                         android:id="@+id/need_pitch_speed_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/pitch_incremental"
-                        android:text="@string/pitch_incremental"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/pitch_incremental" />
+
                     <EditText
                         android:id="@+id/need_pitch_incremental_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/yaw_incremental"
-                        android:text="@string/yaw_incremental"
-                        android:onClick="onClick"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="@string/yaw_incremental" />
+
                     <EditText
                         android:id="@+id/need_yaw_incremental_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:imeOptions="flagNoExtractUi"
                         android:digits="0123456789.-"
+                        android:hint="@string/pi_pi"
+                        android:imeOptions="flagNoExtractUi"
                         android:inputType="number"
-                        android:maxLength="5"
-                        android:hint="@string/pi_pi"/>
+                        android:maxLength="5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/head_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:text="head mode" />
+
+                    <EditText
+                        android:id="@+id/head_mode_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789.-"
+                        android:hint="0-13"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="number"
+                        android:maxLength="5" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

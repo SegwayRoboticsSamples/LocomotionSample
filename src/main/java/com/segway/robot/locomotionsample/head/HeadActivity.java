@@ -2,6 +2,7 @@ package com.segway.robot.locomotionsample.head;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -30,6 +31,7 @@ public class HeadActivity extends Activity {
     EditText mSpeedPitch;
     EditText mPitchIncremental;
     EditText mYawIncremental;
+    EditText mHeadMode;
 
     TextView mWorldYawValue;
     TextView mWorldPitchValue;
@@ -62,12 +64,12 @@ public class HeadActivity extends Activity {
         public void onBind() {
             isBind = true;
             // get robot head current movement pattern.
-            switch (mHead.getMode()){
+            switch (mHead.getMode()) {
                 case Head.MODE_ORIENTATION_LOCK:
-                    ((RadioButton)findViewById(R.id.lock)).setChecked(true);
+                    ((RadioButton) findViewById(R.id.lock)).setChecked(true);
                     break;
                 case Head.MODE_SMOOTH_TACKING:
-                    ((RadioButton)findViewById(R.id.smooth_track)).setChecked(true);
+                    ((RadioButton) findViewById(R.id.smooth_track)).setChecked(true);
                     break;
                 default:
                     break;
@@ -92,26 +94,26 @@ public class HeadActivity extends Activity {
         mHead.bindService(getApplicationContext(), mServiceBindListener);
 
         mMode.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(RadioGroup group, int checkedId) {
-                    switch (checkedId) {
-                        case R.id.smooth_track:
-                            // set robot head in MODE_SMOOTH_TACKING.
-                            if (isBind) {
-                                mHead.setMode(Head.MODE_SMOOTH_TACKING);
-                            }
-                            break;
-                        case R.id.lock:
-                            // set robot head in MODE_ORIENTATION_LOCK.
-                            if (isBind) {
-                                mHead.setMode(Head.MODE_ORIENTATION_LOCK);
-                            }
-                            break;
-                        default:
-                            break;
-                    }
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch (checkedId) {
+                    case R.id.smooth_track:
+                        // set robot head in MODE_SMOOTH_TACKING.
+                        if (isBind) {
+                            mHead.setMode(Head.MODE_SMOOTH_TACKING);
+                        }
+                        break;
+                    case R.id.lock:
+                        // set robot head in MODE_ORIENTATION_LOCK.
+                        if (isBind) {
+                            mHead.setMode(Head.MODE_ORIENTATION_LOCK);
+                        }
+                        break;
+                    default:
+                        break;
                 }
-            });
+            }
+        });
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
@@ -170,7 +172,7 @@ public class HeadActivity extends Activity {
     @Override
     protected void onStop() {
         super.onStop();
-        if (isBind){
+        if (isBind) {
             mHead.unbindService();
         }
         mTimerTask = null;
@@ -251,6 +253,11 @@ public class HeadActivity extends Activity {
                     mHead.setIncrementalPitch(Util.getEditTextFloatValue(mPitchIncremental));
                 }
                 break;
+            case R.id.head_mode:
+                if (!Util.isEditTextEmpty(mHeadMode)) {
+                    mHead.setHeadLightMode(Integer.parseInt(mHeadMode.getText().toString().trim()));
+                }
+                break;
             default:
                 break;
         }
@@ -265,6 +272,7 @@ public class HeadActivity extends Activity {
         mSpeedYaw = (EditText) findViewById(R.id.need_yaw_speed_value);
         mPitchIncremental = (EditText) findViewById(R.id.need_pitch_incremental_value);
         mYawIncremental = (EditText) findViewById(R.id.need_yaw_incremental_value);
+        mHeadMode = (EditText) findViewById(R.id.head_mode_value);
 
         mBasePitch.setOnFocusChangeListener(mOnFocusChangeListener);
         mBaseYaw.setOnFocusChangeListener(mOnFocusChangeListener);
@@ -308,7 +316,7 @@ public class HeadActivity extends Activity {
     };
 
     public void hideKeyboard(View view) {
-        InputMethodManager inputMethodManager =(InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
